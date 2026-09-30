@@ -12,8 +12,10 @@ window.DEMO_PRODUCTS = [
     price: 185000,
     currency: "ل.س",
     tag: "الأكثر طلبًا",
-    imageUrl: "<img src="رابط-الصورة-المباشر" alt="الصورة">"
- 
+    imageUrl: "<div class="image-card">
+  <img src="/images/quran-card.webp" alt="آية قرآنية">
+</div>"
+  },
   {
     id: "product-2",
     name: "لمسة طبيعية",
