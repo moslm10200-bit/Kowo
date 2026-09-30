@@ -6,9 +6,7 @@
 window.DEMO_PRODUCTS = [
   {
     id: "product-1",
-    name: "مجموعة الصباح",
     category: "اختيار اليوم",
-    description: "تفاصيل جميلة تبدأ بها يومك بطريقة مختلفة.",
     tag: "الأكثر طلبًا",
     imageUrl: "https://ibb.co/DJ0ghTp"
   },
@@ -20,7 +18,8 @@ window.DEMO_PRODUCTS = [
     price: 125000,
     currency: "ل.س",
     tag: "جديد",
-    imageUrl: "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=900&q=85"
+    imageUrl: "<img src="https://ibb.co/DJ0ghTp" alt="صورة المنيو">
+"
   },
   {
     id: "product-3",
