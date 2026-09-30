@@ -12,7 +12,7 @@ window.DEMO_PRODUCTS = [
     price: 185000,
     currency: "ل.س",
     tag: "الأكثر طلبًا",
-    imageUrl: "https://files.catbox.moe/zkm7u6.png"
+    imageUrl: "<img src="رابط-الصورة-المباشر" alt="الصورة">"
  
   {
     id: "product-2",
