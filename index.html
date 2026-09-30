@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<script>
+    let password = prompt("الرجاء إدخال كلمة المرور لدخول المنيو:");
+    if (password !== "1029384756") {
+        alert("كلمة المرور غير صحيحة!");
+        document.body.innerHTML = "<h2 style='text-align:center; margin-top:20vh; color:red;'>عذراً، كلمة المرور خاطئة. يسعدنا إغلاق الصفحة.</h2>";
+    }
+</script>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b5c4a" />
+    <meta name="description" content="السكب — واجهة متجر عصرية لعرض المنتجات والطلب عبر واتساب." />
+    <title>السكب | اكتشف ما يناسبك</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&family=Noto+Kufi+Arabic:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="العودة إلى الصفحة الرئيسية">
+          <span class="brand-mark">ا</span>
+          <span class="brand-name">السكب</span>
+        </a>
+        <div class="topbar-actions">
+          <span class="delivery-note"><span class="pulse-dot"></span> اطلبها بسهولة</span>
+          <button class="cart-button" id="cartButton" type="button" aria-label="فتح السلة">
+            <span class="cart-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M3.5 4.5h2l1.6 9.1a2 2 0 0 0 2 1.65h7.7a2 2 0 0 0 1.94-1.5L20.5 8H7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="19" r="1.25" fill="currentColor"/><circle cx="17" cy="19" r="1.25" fill="currentColor"/></svg>
+            </span>
+            <span class="cart-count" id="cartCount">0</span>
+          </button>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero-section">
+          <div class="hero-copy">
+            <div class="eyebrow"><span></span> اختياراتك تصل إليك</div>
+            <h1>اكتشف ما تحب،<br /><em>واطلبه الآن.</em></h1>
+            <p>السكب — وفر وقتك وسهّل نشر منتجاتك للزبون.</p>
+            <a class="hero-cta" href="#products">تصفح المنتجات <span>←</span></a>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <div class="hero-orbit orbit-one"></div>
+            <div class="hero-orbit orbit-two"></div>
+            <div class="hero-card card-back"></div>
+            <div class="hero-card card-front">
+              <div class="mini-label">منتقى لك</div>
+              <div class="mini-leaf">✦</div>
+              <div class="mini-price">تجربة<br /><strong>مميزة</strong></div>
+            </div>
+            <div class="hero-stamp">جديد<br /><span>لك</span></div>
+          </div>
+        </section>
+
+        <section class="collection-section" id="products">
+          <div class="section-heading">
+            <div>
+              <span class="section-kicker">تشكيلتنا</span>
+              <h2>منتجات تستحق <span>تجربتك</span></h2>
+            </div>
+            <div class="swipe-hint" id="swipeHint">
+              <span class="hint-arrow">←</span>
+              <span>اسحب لاكتشاف المزيد</span>
+            </div>
+          </div>
+          <div class="products-viewport">
+            <div class="products-track" id="productsTrack" aria-live="polite"></div>
+          </div>
+          <div class="carousel-footer">
+            <div class="carousel-progress"><span id="progressBar"></span></div>
+            <span class="carousel-status" id="carouselStatus">01 / 06</span>
+          </div>
+        </section>
+
+        <section class="why-section">
+          <div class="why-intro">
+            <span class="section-kicker">لماذا السكب؟</span>
+            <h2>كل ما تحتاجه،<br /><span>في مكان واحد.</span></h2>
+          </div>
+          <div class="why-grid">
+            <article class="why-card">
+              <span class="why-number">01</span>
+              <div class="why-icon">✦</div>
+              <h3>اختيارات منتقاة</h3>
+              <p>منتجات واضحة ومعلومات بسيطة تساعدك على الاختيار.</p>
+            </article>
+            <article class="why-card featured-why">
+              <span class="why-number">02</span>
+              <div class="why-icon">↗</div>
+              <h3>طلب أسرع</h3>
+              <p>أضف ما تريد، ثم أكمل طلبك مباشرة عبر واتساب.</p>
+            </article>
+            <article class="why-card">
+              <span class="why-number">03</span>
+              <div class="why-icon">⌁</div>
+              <h3>تجربة مريحة</h3>
+              <p>واجهة خفيفة وسلسة تعمل على الهاتف والكمبيوتر.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-brand"><span class="brand-name">السكب</span><span>فرصة جديدة لمنتجاتك</span></div>
+        <span>© <span id="year"></span> السكب</span>
+      </footer>
+    </div>
+
+    <div class="modal-backdrop" id="modalBackdrop" hidden></div>
+    <section class="product-modal" id="productModal" role="dialog" aria-modal="true" aria-labelledby="modalProductName" hidden>
+      <button class="close-button" id="closeModal" type="button" aria-label="إغلاق">×</button>
+      <div class="modal-image-wrap"><img id="modalProductImage" src="" alt="" /></div>
+      <div class="modal-content">
+        <span class="modal-category" id="modalProductCategory"></span>
+        <h2 id="modalProductName"></h2>
+        <p class="modal-description" id="modalProductDescription"></p>
+        <div class="modal-meta"><strong id="modalProductPrice"></strong><span id="modalProductTag"></span></div>
+        <button class="add-button modal-add-button" id="modalAddButton" type="button">أضف إلى السلة <span>+</span></button>
+      </div>
+    </section>
+
+    <aside class="cart-drawer" id="cartDrawer" aria-labelledby="cartTitle" aria-hidden="true">
+      <div class="drawer-header">
+        <div><span class="section-kicker">طلبك</span><h2 id="cartTitle">سلة المشتريات</h2></div>
+        <button class="close-button drawer-close" id="closeCart" type="button" aria-label="إغلاق السلة">×</button>
+      </div>
+      <div class="cart-items" id="cartItems">
+        <div class="empty-cart"><span class="empty-cart-icon">✦</span><h3>السلة فارغة</h3><p>أضف منتجًا يعجبك ليظهر هنا.</p></div>
+      </div>
+      <div class="drawer-footer">
+        <div class="cart-total"><span>الإجمالي</span><strong id="cartTotal">0 ل.س</strong></div>
+        <button class="whatsapp-button" id="whatsappButton" type="button"><span class="whatsapp-icon">◔</span> الشراء عبر واتساب</button>
+        <small>ستُفتح محادثة واتساب برسالة جاهزة بتفاصيل طلبك.</small>
+      </div>
+    </aside>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"><span>✓</span><b id="toastMessage">تمت الإضافة إلى السلة</b></div>
+
+    <script src="products.js"></script>
+    <script src="firebase-config.js"></script>
+    <script src="firebase-adapter.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
