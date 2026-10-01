@@ -64,4 +64,14 @@ window.DEMO_PRODUCTS = [
     tag: "جديد",
     imageUrl: "https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=900&q=85"
   }
+  {
+  	id: "product-7",
+    name: "هدية قريبة",
+    category: "هدايا",
+    description: "فكرة لطيفة تُهدى لمن تحب.",
+    price: 135000,
+    currency: "ل.س",
+    tag: "جديد",
+    imageUrl: "https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=900&q=85"
+  }
 ];
