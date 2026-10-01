@@ -6,13 +6,13 @@
 window.DEMO_PRODUCTS = [
   {
     id: "product-1",
-    name: "سبحان اللَّه",
-    category: "اللَّه اكبر",
+    name: "مجموعة الصباح",
+    category: "اختيار اليوم",
     description: "تفاصيل جميلة تبدأ بها يومك بطريقة مختلفة.",
     price: 185000,
     currency: "ل.س",
     tag: "الأكثر طلبًا",
-    imageUrl: "https://unsplash.com/photos/32lFWDW1gbs?auto=format&fit=crop&w=900&q=85"
+    imageUrl: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=85"
   },
   {
     id: "product-2",
@@ -56,16 +56,6 @@ window.DEMO_PRODUCTS = [
   },
   {
     id: "product-6",
-    name: "هدية قريبة",
-    category: "هدايا",
-    description: "فكرة لطيفة تُهدى لمن تحب.",
-    price: 135000,
-    currency: "ل.س",
-    tag: "جديد",
-    imageUrl: "https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=900&q=85"
-  }
-  {
-  	id: "product-7",
     name: "هدية قريبة",
     category: "هدايا",
     description: "فكرة لطيفة تُهدى لمن تحب.",
