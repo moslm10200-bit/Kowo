@@ -54,4 +54,14 @@ window.DEMO_PRODUCTS = [
     tag: "مميز",
     imageUrl: "https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=900&q=85"
   },
+  {
+    id: "product-5",
+    name: "زاوية دافئة",
+    category: "اختيار اليوم",
+    description: "ألوان هادئة وقطعة تليق بمساحتك.",
+    price: 165000,
+    currency: "ل.س",
+    tag: "مميز",
+    imageUrl: "1790962958356.jpg"
+  },
 ];
