@@ -12,7 +12,7 @@ window.DEMO_PRODUCTS = [
     price: 185000,
     currency: "ل.س",
     tag: "الأكثر طلبًا",
-    imageUrl:"IMG_20261001_172613_206.jpg",
+    imageUrl:"https://ibb.co/hFFK1rqW",
   },
   {
     id: "product-2",
