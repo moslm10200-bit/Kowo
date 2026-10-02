@@ -193,8 +193,8 @@ a { color: inherit; text-decoration: none; }
   .hero-section { min-height: 545px; margin-top: 10px; padding: 42px 25px; border-radius: 23px; }
   .hero-copy h1 { font-size: 40px; }
   .hero-art { height: 260px; }
-  .card-front { width: 180px; height: 235px; left: 42%; padding: 20px 17px; }
-  .card-back { width: 165px; height: 220px; left: 44%; }
+  .card-front { width: 150px; height: 200px; left: 42%; padding: 20px 17px; }
+  .card-back { width: 150px; height: 200px; left: 44%; }
   .mini-leaf { margin-top: 31px; font-size: 42px; }
   .mini-price { margin-top: 27px; }
   .hero-stamp { left: 18%; width: 62px; height: 62px; }
