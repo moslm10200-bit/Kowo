@@ -25,16 +25,6 @@ window.DEMO_PRODUCTS = [
     imageUrl: "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=900&q=85"
   },
   {
-    id: "product-3",
-    name: "وقت هادئ",
-    category: "أسلوبك",
-    description: "اختيار بسيط، أنيق، ومناسب لكل وقت.",
-    price: 220000,
-    currency: "ل.س",
-    tag: "مميز",
-    imageUrl: "https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=900&q=85"
-  },
-  {
     id: "product-4",
     name: "تفصيل يومي",
     category: "مختاراتنا",
