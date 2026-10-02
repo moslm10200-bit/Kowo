@@ -62,6 +62,6 @@ window.DEMO_PRODUCTS = [
     price: 165000,
     currency: "ل.س",
     tag: "مميز",
-    imageUrl: "1790962958356.jpg"
+    imageUrl: "https://i.postimg.cc/rsRdM07N/1790962958356.jpg"
   },
 ];
