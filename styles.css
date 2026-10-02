@@ -106,7 +106,7 @@ a { color: inherit; text-decoration: none; }
 .product-name { margin: 0; font-size: 15px; font-weight: 700; }
 .product-description { margin: 6px 0 15px; color: var(--ink-soft); font-size: 10px; line-height: 1.9; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .product-bottom { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
-.product-price { color: var(--green); font-size: 14px; font-weight: 800; }
+.product-price { color: var(--green); font-size: 11px; font-weight: 800; }
 .add-button { display: inline-flex; align-items: center; justify-content: center; gap: 12px; min-width: 134px; padding: 10px 13px; color: #061f19; background: var(--mint); border-radius: 5px; font-size: 10px; font-weight: 800; transition: .25s ease; }
 .add-button span { display: grid; place-items: center; width: 17px; height: 17px; color: var(--paper); background: var(--green); border-radius: 50%; font-size: 16px; line-height: 1; }
 .add-button:hover { color: var(--paper); background: var(--green); transform: translateY(-2px); }
