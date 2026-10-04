@@ -192,3 +192,8 @@ a { color: inherit; text-decoration: none; }
   .modal-meta { margin: 18px 0 15px; }
   .cart-drawer { padding: 25px 20px; }
 }
+.hero-section {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
